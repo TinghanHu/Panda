@@ -1,0 +1,21 @@
+# macOS files
+.DS_Store
+
+# Python virtual environment
+.venv/
+venv/
+# If you use other common virtual environment names, add them here:
+# .env/
+# env/
+
+# Byte-compiled Python files
+*.pyc
+__pycache__/
+
+# Editor backup files
+*~
+*.bak
+
+# If you have specific log files or temporary files
+*.log
+*.tmp

@@ -1,0 +1,32 @@
+Exercise:
+
+#1
+Given the A B C D
+following Series1 100
+200
+300
+400
+500
+command to create above Series and then double the value in series and store in another series named Series2
+
+#2
+State whether True or False
+a. A series object is size mutable. False
+b. A Dataframe object is value mutable True
+Series: 大小不可變，值可變（你可以改變裡面現有元素的值）。
+DataFrame: 大小不可變，值可變（你可以改變裡面現有單元格的值）。
+
+#3
+Consider a given Series , Series1: 200 700
+201 700 202 700 203 700 204 700
+Write a program in Python Pandas to create the series and display it.
+
+#4
+Consider the following Series object, s IP 95
+Physics 89
+Chemistry 92
+Math 95
+i. Write the Python syntax which will display
+only IP.
+ii. Write the Python syntax to increase marks
+of all subjects by 10.
