@@ -30,3 +30,16 @@ i. Write the Python syntax which will display
 only IP.
 ii. Write the Python syntax to increase marks
 of all subjects by 10.
+
+#5
+Consider a given series : SQTR
+import pandas as pd
+ val1=[50000,65890,56780,89000,77900]
+   QTR1 QTR2 QTR3 QTR4 QTR5
+Write a program in display the series.
+50000
+65890
+56780
+89000
+77900
+Python Pandas to create and
