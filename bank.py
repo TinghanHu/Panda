@@ -11,7 +11,10 @@ transactions_df = pd.read_excel('bank_data.xlsx', sheet_name='transactions', ski
 # # 使用 merge() 函式進行合併
 matched_data = pd.merge(customers_df, transactions_df, on='CustomerID', how='inner')
 matched_data['Account'] = matched_data['Account'].astype(str) + '0'
-# # 印出結果
+# 將處理後的 DataFrame 輸出為新的 Excel 檔案
+# index=False 表示不將 DataFrame 的索引寫入檔案
+matched_data.to_excel('processed_bank_data.xlsx', index=False)
+
 # print("有最新交易紀錄的客戶資料：")
 print(matched_data)
 # print(customers_df)
